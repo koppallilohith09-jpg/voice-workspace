@@ -1,0 +1,17 @@
+{
+  "name": "voice-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Voice and typed commands for apps, files and timers.",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "config": {
+    "port": 8807
+  }
+}
